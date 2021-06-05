@@ -1,6 +1,5 @@
 /*Reseteo de estilos*/
 @import url("https://fonts.gstatic.com");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:300,400,500,700,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -146,64 +145,6 @@ footer .amor {
   animation: heartBeat;
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
-}
-
-.espacio {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.espacio :before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 200px;
-  background: linear-gradient(to top, #EBEDEF, transparent);
-  z-index: 1000;
-}
-.espacio :after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  background: #34495E;
-  z-index: 100;
-  mix-blend-mode: color;
-}
-.espacio img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#text {
-  position: relative;
-  top: -10%;
-  color: #283747;
-  font-size: 10em;
-  z-index: 1;
-}
-
-#neptuno1 {
-  z-index: 2;
-}
-
-#mercurio {
-  z-index: 3;
-}
-
-#astronauta {
-  z-index: 4;
 }
 
 /*# sourceMappingURL=style.css.map */
