@@ -1,0 +1,22 @@
+h1{
+    color: rgb(0, 0, 0);
+    display:block;
+    text-align: center;
+    text-decoration-style: wavy;
+    font-size: 150%; 
+    padding: 1% 1%; 
+    animation: bounce; 
+    animation-duration: 1s;
+
+}
+
+.fake-h1{
+    color: white;
+    display:block;
+    text-align:left;  
+    text-decoration-style: wavy;
+    font-size: 120%; 
+    padding: 1% 1%; 
+    animation: bounce; 
+    animation-duration: 1s;
+}

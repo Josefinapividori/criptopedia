@@ -1,0 +1,20 @@
+footer{
+    color: #ffffff;
+    font-family: 'Maven Pro', sans-serif;
+    background: #00796B;
+    min-height: 20px;
+    text-align: center;
+    font-size: 100%;
+    padding: 1em;
+    align-self: flex-end;
+    border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #e6c4ff;
+
+    .amor{
+        animation: heartBeat; 
+        animation-duration: 0.5s;
+        animation-iteration-count: 1000;
+    }
+}
