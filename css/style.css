@@ -7,6 +7,7 @@
   user-select: text;
   /*Impide que el user seleccione copie y pegue el texto*/
   font-family: "Maven Pro", sans-serif;
+  background-color: black;
 }
 
 /*si lo importo aca, no tengo que importarlo en cada archivo de HTML*/
