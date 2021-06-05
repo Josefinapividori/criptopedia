@@ -185,20 +185,24 @@ footer .amor {
   height: 100%;
   object-fit: cover;
 }
-.espacio #text {
+
+#text {
   position: relative;
   top: -10%;
   color: #283747;
   font-size: 10em;
   z-index: 1;
 }
-.espacio #neptuno1 {
+
+#neptuno1 {
   z-index: 2;
 }
-.espacio #mercurio {
+
+#mercurio {
   z-index: 3;
 }
-.espacio #astronauta {
+
+#astronauta {
   z-index: 4;
 }
 
