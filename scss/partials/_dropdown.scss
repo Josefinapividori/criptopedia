@@ -11,8 +11,10 @@
 border: 2px solid black;
 
     #navbarDropdown{
+        a{
+            font-size: 10%;
+        }
         font-family: 'Maven Pro', sans-serif;
-        font-size: 50%;
         color: #ffffff;
             &:hover{
                 color: #F8BF0F;
