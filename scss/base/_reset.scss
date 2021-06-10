@@ -1,8 +1,10 @@
 /*Reseteo de estilos*/
+@import '../variables/list';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select:text;  /*Impide que el user seleccione copie y pegue el texto*/
     font-family: 'Maven Pro', sans-serif;
+    background-color: nth($list:$colores , $n:3 );
 }
