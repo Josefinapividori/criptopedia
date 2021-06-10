@@ -81,6 +81,23 @@ h1 {
   color: #ffffff;
   background-color: #F8BF0F;
 }
+.contanev .switch {
+  background-color: #F8BF0F;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+.contanev .switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: white;
+}
 
 /*Listas*/
 .primero {
