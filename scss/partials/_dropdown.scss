@@ -12,7 +12,6 @@
 border: 2px solid nth($list: $colores, $n:3 );
 
     #navbarDropdown{
-        font-family: 'Maven Pro', sans-serif;
         font-size: 110%;
         color: nth($list: $colores, $n:2 );
             &:hover{
