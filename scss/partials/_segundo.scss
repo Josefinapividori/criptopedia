@@ -3,14 +3,14 @@
     font-family: 'Maven Pro', sans-serif;
     margin: 0%;
     padding: 5% 10%;
-    color: #ffffff; 
+    color: nth($list:$colores , $n:2 ); 
     font-size: nth($list:$texto , $n:1 ); 
     font-weight: 400; 
     text-align: justify; 
-    background: #00796B; 
+    background: nth($list:$colores , $n:1 ); 
     overflow: hidden; 
     border-radius: 35px 0px 35px 0px; 
     -moz-border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 2px solid black;
+    border: 2px solid nth($list:$colores , $n:3 );
 }
