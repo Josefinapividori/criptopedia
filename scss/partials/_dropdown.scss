@@ -1,5 +1,6 @@
+@import '../variables/list';
 .contanev{
-    background: #00796B;
+    background: nth($list: $colores, $n:1 );
     min-height: 20px;
     text-align: center;
     font-size: 110%;
@@ -8,14 +9,14 @@
     border-radius: 35px 0px 35px 0px; 
 -moz-border-radius: 35px 0px 35px 0px; 
 -webkit-border-radius: 35px 0px 35px 0px; 
-border: 2px solid black;
+border: 2px solid nth($list: $colores, $n:3 );
 
     #navbarDropdown{
         font-family: 'Maven Pro', sans-serif;
         font-size: 110%;
-        color: #ffffff;
+        color: nth($list: $colores, $n:2 );
             &:hover{
-                color: #F8BF0F;
+                color: nth($list: $colores, $n:5 );
             }
             ::after{
                 animation: bounce; 
