@@ -84,11 +84,11 @@ h1 {
 }
 
 .primero {
-  color: white;
+  color: #ffffff;
   display: block;
   text-align: justify;
   text-decoration-style: wavy;
-  font-size: 100%;
+  font-size: font-size 100%;
   margin: 5%;
   padding: 0% 10%;
 }
