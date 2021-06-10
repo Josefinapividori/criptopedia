@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     list-style: none;
-    text-align: center;
+    text-align: nth($list: $texto , $n:4);
     justify-content:space-evenly;
     text-decoration-style: wavy;
     padding: 5%;
