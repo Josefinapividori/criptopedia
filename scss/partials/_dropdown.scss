@@ -2,7 +2,7 @@
 .contanev{
     background: nth($list: $colores, $n:1 );
     min-height: 20px;
-    text-align: nth($list:$texto , $n:4 );
+    text-align: nth($list:$texto , $n:3 );
     font-size: 110%;
     padding: 5px;
     align-self: flex-end;

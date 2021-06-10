@@ -2,7 +2,7 @@
 h1{
     color: nth($list: $colores, $n:2 );
     display:block;
-    text-align: center;
+    text-align: nth($list: $texto , $n: 3);
     text-decoration-style: wavy;
     font-size: nth($list: $texto , $n:1 ); 
     padding: 1% 1%; 
