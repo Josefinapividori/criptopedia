@@ -1,5 +1,6 @@
+@import '../variables/list';
 h1{
-    color: white;
+    color: nth($list: $colores, $n:2 );
     display:block;
     text-align: center;
     text-decoration-style: wavy;
@@ -11,7 +12,7 @@ h1{
 }
 
 .fake-h1{
-    color: white;
+    color: nth($list: $colores, $n:2 );
     display:block;
     text-align:left;  
     text-decoration-style: wavy;

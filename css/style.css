@@ -10,8 +10,9 @@
 }
 
 /*si lo importo aca, no tengo que importarlo en cada archivo de HTML*/
+/*Listas*/
 h1 {
-  color: white;
+  color: #ffffff;
   display: block;
   text-align: center;
   text-decoration-style: wavy;
@@ -22,7 +23,7 @@ h1 {
 }
 
 .fake-h1 {
-  color: white;
+  color: #ffffff;
   display: block;
   text-align: left;
   text-decoration-style: wavy;
