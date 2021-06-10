@@ -108,6 +108,7 @@ h1 {
   border: 2px solid black;
 }
 
+/*Listas*/
 .donacion-hablamos {
   display: flex;
   flex-direction: column;
