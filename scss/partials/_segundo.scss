@@ -3,7 +3,7 @@
     margin: 0%;
     padding: 5% 10%;
     color: #ffffff; 
-    font-size: 100%; 
+    font-size: nth($list:$texto , $n:1 ); 
     font-weight: 400; 
     text-align: justify; 
     background: #00796B; 
