@@ -1,6 +1,5 @@
 @import '../variables/list';
 .segundo{
-    font-family: 'Maven Pro', sans-serif;
     margin: 0%;
     padding: 5% 10%;
     color: nth($list:$colores , $n:2 ); 
