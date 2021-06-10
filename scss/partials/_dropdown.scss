@@ -26,30 +26,29 @@ border: 2px solid nth($list: $colores, $n:3 );
 
 
     .navbar-toggler-icon{
-        background-color: #ffffff;
+        background-color: nth($list:$colores , $n:2 );
         padding: 2em;
         width: 5em;
         align-self: flex-end;
         border-radius: 35px 0px 35px 0px; 
     -moz-border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 2px solid #e6c4ff;
+    border: 2px solid nth($list:$colores , $n:1 );
     
-        color: #00796B;
-        font-family: 'Maven Pro', sans-serif;
+        color: nth($list: $colores, $n:1 );
         padding: 3px 6px ;
         justify-content: right;
     }
 
     .dropdown-item{
-        color: #00796B;
+        color: nth($list: $colores, $n:1 );
         &:hover{
-            color: #F8BF0F;
+            color: nth($list: $colores, $n:5 );
         }
     }
     
     .btn-outline-success{
-        color: #ffffff;
-        background-color: #F8BF0F;
+        color: nth($list: $colores, $n:2 );
+        background-color: nth($list: $colores, $n:5 );
     }
 }

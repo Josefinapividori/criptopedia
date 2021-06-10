@@ -66,9 +66,8 @@ h1 {
   border-radius: 35px 0px 35px 0px;
   -moz-border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid #e6c4ff;
+  border: 2px solid #00796B;
   color: #00796B;
-  font-family: "Maven Pro", sans-serif;
   padding: 3px 6px;
   justify-content: right;
 }
