@@ -16,7 +16,7 @@ h1 {
   display: block;
   text-align: center;
   text-decoration-style: wavy;
-  font-size: 150%;
+  font-size: font-size 100%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
@@ -27,7 +27,7 @@ h1 {
   display: block;
   text-align: left;
   text-decoration-style: wavy;
-  font-size: 120%;
+  font-size: font-size 100%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
