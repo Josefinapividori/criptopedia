@@ -3,7 +3,7 @@ footer{
     color: nth($list: $colores , $n:2 ); 
     background: nth($list: $colores, $n:1 );
     min-height: 20px;
-    text-align: nth($list: $texto, $n:3 );
+    text-align: center;
     font-size: nth($list: $texto, $n:1 );
     padding: 1%;
     align-self: flex-end;
