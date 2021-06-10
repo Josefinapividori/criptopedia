@@ -1,7 +1,6 @@
 @import '../variables/list';
 footer{
     color: nth($list: $colores , $n:2 ); 
-    font-family: 'Maven Pro', sans-serif;
     background: nth($list: $colores, $n:1 );
     min-height: 20px;
     text-align: nth($list: $texto, $n:4 );
