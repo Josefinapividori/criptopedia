@@ -1,150 +1,19 @@
-/*Reseteo de estilos*/
-@import url("https://fonts.gstatic.com");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  user-select: text;
-  /*Impide que el user seleccione copie y pegue el texto*/
-  font-family: "Maven Pro", sans-serif;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 18 | $border-radius 35px 0px 35px 0px,
+ *    | ^^^^^^^^^^^^^^
+ *    '
+ *   scss\variables\_list.scss 18:1  @import
+ *   scss\partials\_footer.scss 1:9  @import
+ *   scss\style.scss 8:9             root stylesheet */
 
-/*si lo importo aca, no tengo que importarlo en cada archivo de HTML*/
-h1 {
-  color: white;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  text-align: center;
-  text-decoration-style: wavy;
-  font-size: 150%;
-  padding: 1% 1%;
-  animation: bounce;
-  animation-duration: 1s;
-}
-
-.fake-h1 {
-  color: white;
-  display: block;
-  text-align: left;
-  text-decoration-style: wavy;
-  font-size: 120%;
-  padding: 1% 1%;
-  animation: bounce;
-  animation-duration: 1s;
-}
-
-.contanev {
-  background: #00796B;
-  min-height: 20px;
-  text-align: center;
-  font-size: 110%;
-  padding: 5px;
-  align-self: flex-end;
-  border-radius: 35px 0px 35px 0px;
-  -moz-border-radius: 35px 0px 35px 0px;
-  -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid black;
-}
-.contanev #navbarDropdown {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 110%;
-  color: #ffffff;
-}
-.contanev #navbarDropdown:hover {
-  color: #F8BF0F;
-}
-.contanev #navbarDropdown ::after {
-  animation: bounce;
-  animation-duration: 1s;
-}
-.contanev .navbar-toggler-icon {
-  background-color: #ffffff;
-  padding: 2em;
-  width: 5em;
-  align-self: flex-end;
-  border-radius: 35px 0px 35px 0px;
-  -moz-border-radius: 35px 0px 35px 0px;
-  -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid #e6c4ff;
-  color: #00796B;
-  font-family: "Maven Pro", sans-serif;
-  padding: 3px 6px;
-  justify-content: right;
-}
-.contanev .dropdown-item {
-  color: #00796B;
-}
-.contanev .dropdown-item:hover {
-  color: #F8BF0F;
-}
-.contanev .btn-outline-success {
-  color: #ffffff;
-  background-color: #F8BF0F;
-}
-
-.primero {
-  color: white;
-  display: block;
-  text-align: justify;
-  text-decoration-style: wavy;
-  font-size: 100%;
-  margin: 5%;
-  padding: 0% 10%;
-}
-
-.segundo {
-  font-family: "Maven Pro", sans-serif;
-  margin: 0%;
-  padding: 5% 10%;
-  color: #ffffff;
-  font-size: 100%;
-  font-weight: 400;
-  text-align: justify;
-  background: #00796B;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  -moz-border-radius: 35px 0px 35px 0px;
-  -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid black;
-}
-
-.donacion-hablamos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  justify-content: space-evenly;
-  text-decoration-style: wavy;
-  padding: 5%;
-  font-size: 110%;
-}
-.donacion-hablamos #hablamos {
-  padding: 2%;
-  width: 40%;
-}
-.donacion-hablamos .enviar {
-  background: #8BC34A;
-  color: #ffffff;
-}
-
-footer {
-  color: #ffffff;
-  font-family: "Maven Pro", sans-serif;
-  background: #00796B;
-  min-height: 20px;
-  text-align: center;
-  font-size: 100%;
   padding: 1em;
-  align-self: flex-end;
-  border-radius: 35px 0px 35px 0px;
-  -moz-border-radius: 35px 0px 35px 0px;
-  -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid black;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 18 \2502  $border-radius 35px 0px 35px 0px,\d\a    \2502  ^^^^^^^^^^^^^^\a    \2575 \a   scss\\variables\\_list.scss 18:1  @import\a   scss\\partials\\_footer.scss 1:9  @import\a   scss\\style.scss 8:9             root stylesheet";
 }
-footer .amor {
-  animation: heartBeat;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1000;
-}
-
-/*# sourceMappingURL=style.css.map */
