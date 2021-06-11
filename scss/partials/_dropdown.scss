@@ -78,7 +78,7 @@
             left: 0;
             right: unset; /*que a la derecha no esta seteada*/ 
             border-radius: 1000px;
-            transition: .5 ease all; /*transisción a todas las propiedades*/
+            transition: .5 ease all !important; /*transisción a todas las propiedades*/
             box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
         }
     
