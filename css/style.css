@@ -56,7 +56,7 @@ h1 {
   -moz-border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 0px 0px 35px 35px;
   /*border: 2px solid nth($list: $colores, $n:3 );*/
-  box-shadow: #ffffff;
+  box-shadow: #00796B;
   /*dentro*/
 }
 .contanev #navbarDropdown {
