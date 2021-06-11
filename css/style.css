@@ -191,9 +191,10 @@ h1 {
   padding: 5%;
   font-size: 110%;
 }
-.donacion-hablamos li p a {
+.donacion-hablamos li {
   display: block;
   text-align: center;
+  padding: 5% 5% 5%;
 }
 .donacion-hablamos #hablamos {
   padding: 2%;
