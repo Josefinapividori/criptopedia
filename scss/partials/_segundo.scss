@@ -10,4 +10,8 @@
     overflow: hidden; 
     border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 35px 35px 35px; 
+
+    .dark &{
+        color: nth($list: $colores, $n:3 );
+    }
 }
