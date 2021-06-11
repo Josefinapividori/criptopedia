@@ -1,6 +1,6 @@
 @import '../variables/list';
 footer{
-    color: nth($list: $colores , $n:2 ); 
+    color: nth($list: $colores , $n:3 ); 
     background: nth($list: $colores, $n:1 );
     min-height: 20px;
     text-align: center;
@@ -16,6 +16,6 @@ footer{
     }
 
     .dark &{
-        color: nth($list: $colores, $n:3 );
+        color: nth($list: $colores, $n:2 );
     }
 }
