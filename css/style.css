@@ -128,7 +128,7 @@ h1 {
   width: 30px;
   height: 38px;
   line-height: 30px;
-  display: block;
+  display: block !important;
   background: none;
   color: #ffffff;
 }

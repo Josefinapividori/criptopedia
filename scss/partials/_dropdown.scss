@@ -53,7 +53,7 @@ border: 2px solid nth($list: $colores, $n:3 );
     }
 }
 
-.switch{
+.switch{ 
     background:nth($list:$colores , $n:3 );
     border-radius: 1000px;
     border:none;
@@ -93,7 +93,7 @@ border: 2px solid nth($list: $colores, $n:3 );
         width: 30px;
         height: 38px;
         line-height: 30px;
-        display: block;
+        display: block !important; 
         background: none;
         color: nth($list: $colores , $n:2 );
     }
