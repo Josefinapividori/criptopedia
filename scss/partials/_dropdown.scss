@@ -59,7 +59,7 @@ border: 2px solid nth($list: $colores, $n:3 );
 /*dentro*/
     .switch{ 
         width: 80px;
-        height: 50px;
+        height: 30px;
         background:nth($list:$colores , $n:3 );
         border-radius: 1000px;
         border:none;
