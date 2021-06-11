@@ -60,7 +60,7 @@
     .switch{ 
         padding: 1px 1px;
         background:nth($list:$colores , $n:3 );
-        border-radius: 400px;
+        border-radius: 1000px;
         border:none;
         position: relative; /*para el posicionamiento del icono*/
         cursor: pointer;
