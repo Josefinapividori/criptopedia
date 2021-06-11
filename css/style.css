@@ -87,7 +87,8 @@ h1 {
   color: #ffffff;
   background-color: #F8BF0F;
 }
-.contanev .switch {
+
+.switch {
   background: black;
   border-radius: 100px;
   border: none;
@@ -97,7 +98,7 @@ h1 {
   display: flex;
   outline: none;
 }
-.contanev .switch::after {
+.switch::after {
   content: "";
   /*el content vacio para que funcionene los demas estilos*/
   display: block;
@@ -115,15 +116,15 @@ h1 {
   /*transisción a todas las propiedades*/
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.contanev .switch.active {
+.switch.active {
   background: yellowgreen;
   color: black;
 }
-.contanev .switch.active::after {
+.switch.active::after {
   right: 0;
   left: unset;
 }
-.contanev .switch span {
+.switch span {
   width: 30px;
   height: 38px;
   line-height: 30px;
