@@ -150,7 +150,7 @@ h1 {
 
 /*Listas*/
 .primero {
-  color: black;
+  color: #ffffff;
   display: block;
   text-align: justify;
   text-decoration-style: wavy;
@@ -159,7 +159,7 @@ h1 {
   padding: 0% 10%;
 }
 .dark .primero {
-  color: #ffffff;
+  color: black;
 }
 
 /*Listas*/
