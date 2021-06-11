@@ -16,6 +16,6 @@ footer{
     }
 
     .dark &{
-        color: nth($list: $colores, $n:2 );
+        color: nth($list: $colores, $n:3 );
     }
 }
