@@ -16,7 +16,7 @@ h1{
 }
 
 .fake-h1{
-    color: nth($list: $colores, $n:2 );
+    color: nth($list: $colores, $n:3 );
     display:block;
     text-align:left;  
     text-decoration-style: wavy;
@@ -26,6 +26,6 @@ h1{
     animation-duration: 1s;
 
     .dark &{
-        color: nth($list: $colores, $n:3 );
+        color: nth($list: $colores, $n:2 );
     }
 }

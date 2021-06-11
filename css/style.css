@@ -37,7 +37,7 @@ h1 {
 }
 
 .fake-h1 {
-  color: #ffffff;
+  color: black;
   display: block;
   text-align: left;
   text-decoration-style: wavy;
@@ -47,7 +47,7 @@ h1 {
   animation-duration: 1s;
 }
 .dark .fake-h1 {
-  color: black;
+  color: #ffffff;
 }
 
 /*Listas*/
@@ -216,6 +216,9 @@ footer .amor {
   animation: heartBeat;
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
+}
+.dark footer {
+  color: #ffffff;
 }
 
 /*Listas*/

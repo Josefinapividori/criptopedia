@@ -14,4 +14,8 @@ footer{
         animation-duration: 0.5s;
         animation-iteration-count: 1000;
     }
+
+    .dark &{
+        color: nth($list: $colores, $n:2 );
+    }
 }
