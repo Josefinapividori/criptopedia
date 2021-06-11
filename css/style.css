@@ -52,6 +52,7 @@ h1 {
   -moz-border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 0px 35px 0px;
   border: 2px solid black;
+  /*dentro*/
 }
 .contanev #navbarDropdown {
   font-size: 110%;
@@ -87,8 +88,7 @@ h1 {
   color: #ffffff;
   background-color: #F8BF0F;
 }
-
-.switch {
+.contanev .switch {
   background: black;
   border-radius: 1000px;
   border: none;
@@ -98,7 +98,7 @@ h1 {
   display: flex;
   outline: none;
 }
-.switch::after {
+.contanev .switch::after {
   content: "";
   /*el content vacio para que funcionene los demas estilos*/
   display: block;
@@ -116,15 +116,15 @@ h1 {
   /*transisción a todas las propiedades*/
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.switch.active {
+.contanev .switch.active {
   background: white;
   color: black;
 }
-.switch.active::after {
+.contanev .switch.active::after {
   right: 0;
   left: unset;
 }
-.switch span {
+.contanev .switch span {
   width: 30px;
   height: 38px;
   line-height: 30px;
