@@ -2,11 +2,11 @@
 @import '../variables/extends';
 
 body{
-    background-color: nth($list: $colores , $n:2 );
+    background: nth($list: $colores , $n:2 );
     transition: .3 ease all;
 
     &.dark{
-        background: nth($list: $colores , $n: 3);
+        background: nth($list: $colores , $n:3);
     }
 
 }

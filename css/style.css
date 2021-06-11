@@ -2,7 +2,7 @@
 /*Listas*/
 @import url("https://fonts.gstatic.com");
 body {
-  background-color: #ffffff;
+  background: #ffffff;
   transition: 0.3 ease all;
 }
 body.dark {
