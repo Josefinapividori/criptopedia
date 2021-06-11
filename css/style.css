@@ -102,8 +102,8 @@ h1 {
   content: "";
   /*el content vacio para que funcionene los demas estilos*/
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   position: absolute;
   /*es importante para posicionar a la derecha o izquierda*/
   background: #ffffff;
