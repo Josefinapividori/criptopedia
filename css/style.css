@@ -2,11 +2,11 @@
 /*Listas*/
 @import url("https://fonts.gstatic.com");
 body {
-  background: black;
+  background: #ffffff;
   transition: 0.3 ease all;
 }
 body.dack {
-  background: #ffffff;
+  background: black;
 }
 
 /*Reseteo de estilos*/
