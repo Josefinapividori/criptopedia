@@ -10,8 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: text;
-  /*Impide que el user seleccione copie y pegue el texto*/
+  user-select: text; 
   font-family: "Maven Pro", sans-serif;
 }
 
