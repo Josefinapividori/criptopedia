@@ -7,4 +7,12 @@
     cursor: pointer;
     display: flex;
     outline: none;
+    span {
+        width: 30px;
+        height: 38px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: nth($list: $colores , $n:2 );
+    }
 }
