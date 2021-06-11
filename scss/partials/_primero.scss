@@ -1,6 +1,6 @@
 @import '../variables/list';
 .primero{
-    color: nth($list: $colores , $n:2 );
+    color: nth($list: $colores , $n:3 );
     display:block;
     text-align: justify;
     text-decoration-style: wavy;
