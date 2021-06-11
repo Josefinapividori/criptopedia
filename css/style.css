@@ -56,7 +56,7 @@ h1 {
   -webkit-border-radius: 0px 0px 35px 35px;
   /*border: 2px solid nth($list: $colores, $n:3 );*/
   box-shadow: #00796B;
-  /*dentro*/
+  /*boton modo oscuro*/
 }
 .contanev #navbarDropdown {
   font-size: 110%;
@@ -94,7 +94,7 @@ h1 {
   background-color: #F8BF0F;
 }
 .contanev .switch {
-  width: 70px;
+  width: 60px;
   background: black;
   border-radius: 1000px;
   border: none;
