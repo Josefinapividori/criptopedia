@@ -54,8 +54,9 @@ h1 {
   align-self: flex-end;
   border-radius: 35px 0px 35px 0px;
   -moz-border-radius: 35px 0px 35px 0px;
-  -webkit-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 0px 0px 35px 35px;
   border: 2px solid black;
+  box-shadow: #ffffff;
   /*dentro*/
 }
 .contanev #navbarDropdown {
