@@ -14,7 +14,6 @@
     #navbarDropdown{
         font-size: 110%;
         color: nth($list: $colores, $n:3 );
-        background-color: rgb(112, 112, 112);
 
             .dark &{
                 color: nth($list: $colores, $n:2 );
