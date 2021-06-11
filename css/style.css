@@ -119,6 +119,10 @@ h1 {
   background: yellowgreen;
   color: black;
 }
+.contanev .switch.active::after {
+  right: 0;
+  left: unset;
+}
 .contanev .switch span {
   width: 30px;
   height: 38px;

@@ -79,6 +79,10 @@ border: 2px solid nth($list: $colores, $n:3 );
         &.active{
             background: yellowgreen;
             color: black;
+            &::after{
+                right: 0;
+                left: unset;
+            }
         }
         span {
             width: 30px;
