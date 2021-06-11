@@ -26,6 +26,6 @@ h1{
     animation-duration: 1s;
 
     .dark &{
-        color: nth($list: $colores, $n:2 );
+        color: nth($list: $colores, $n:3 );
     }
 }

@@ -47,7 +47,7 @@ h1 {
   animation-duration: 1s;
 }
 .dark .fake-h1 {
-  color: #ffffff;
+  color: black;
 }
 
 /*Listas*/
