@@ -75,19 +75,18 @@ border: 2px solid nth($list: $colores, $n:3 );
         border-radius: 1000px;
         transition: .3 ease all; /*transisción a todas las propiedades*/
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
-
-        /*a ver*/
-        &.active{
-            background: yellowgreen;   
-            color: black;
-    
-            &::after{
-                right: 0;
-                left: unset;
-            }
-        }
     }
 
+
+    &.active{
+        background: yellowgreen;   
+        color: black;
+        
+        &::after{
+        right: 0;
+        left: unset;
+        }
+    }
 
 
     span {
