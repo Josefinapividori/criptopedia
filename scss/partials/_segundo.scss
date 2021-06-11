@@ -9,7 +9,5 @@
     background: nth($list:$colores , $n:1 ); 
     overflow: hidden; 
     border-radius: 35px 0px 35px 0px; 
-    -moz-border-radius: 35px 0px 35px 0px; 
-    -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 2px solid nth($list:$colores , $n:3 );
+    -webkit-border-radius: 35px 35px 35px 35px; 
 }
