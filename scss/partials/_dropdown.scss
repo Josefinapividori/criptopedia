@@ -55,6 +55,7 @@
 
 /*boton modo oscuro*/
     .switch{ 
+        margin: 100px;
         width: 70px;
         height: 35px;
         background:nth($list:$colores , $n:3 );
