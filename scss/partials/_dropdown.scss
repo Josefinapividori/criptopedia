@@ -84,8 +84,8 @@
     
     
         &.active{
-            background: yellow;   
-            color: black;
+            background: nth($list:$colores , $n:5 );   
+            color: nth($list:$colores , $n:3 );
             
             &::after{
             right: 0;
