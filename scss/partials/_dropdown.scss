@@ -58,8 +58,8 @@ border: 2px solid nth($list: $colores, $n:3 );
 
 /*dentro*/
     .switch{ 
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 38px;
         background:nth($list:$colores , $n:3 );
         border-radius: 1000px;
         border:none;
