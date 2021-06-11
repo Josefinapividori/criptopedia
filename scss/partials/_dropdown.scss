@@ -65,8 +65,8 @@ border: 2px solid nth($list: $colores, $n:3 );
     &::after{
         content: ""; /*el content vacio para que funcionene los demas estilos*/
         display: block; 
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         position: absolute; /*es importante para posicionar a la derecha o izquierda*/
         background: nth($list:$colores , $n:2 );
         top: 0;
