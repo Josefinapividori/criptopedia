@@ -70,8 +70,8 @@
         &::after{
             content: ""; /*el content vacio para que funcionene los demas estilos*/
             display: block; 
-            width: 35px;
-            height: 30px;
+            width: 60px;
+            height: 35px;
             position: absolute; /*es importante para posicionar a la derecha o izquierda*/
             background: nth($list:$colores , $n:2 );
             top: 0;
