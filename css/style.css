@@ -32,6 +32,9 @@ h1 {
   animation: bounce;
   animation-duration: 1s;
 }
+.dark h1 {
+  color: #ffffff;
+}
 
 .fake-h1 {
   color: #ffffff;
@@ -42,6 +45,9 @@ h1 {
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
+}
+.dark .fake-h1 {
+  color: #ffffff;
 }
 
 /*Listas*/
