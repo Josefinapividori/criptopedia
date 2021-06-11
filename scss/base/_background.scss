@@ -1,6 +1,6 @@
 @import '../variables/list';
 @import '../variables/extends';
 
-.body{
+body{
     background-color: nth($list: $colores , $n:3 );
 }
