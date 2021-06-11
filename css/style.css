@@ -1,6 +1,11 @@
-/*Reseteo de estilos*/
 /*Listas*/
 @import url("https://fonts.gstatic.com");
+body {
+  background-color: black;
+}
+
+/*Reseteo de estilos*/
+/*Listas*/
 * {
   margin: 0;
   padding: 0;
@@ -168,9 +173,5 @@ footer .amor {
 }
 
 /*Listas*/
-/*Listas*/
-body {
-  background-color: black;
-}
 
 /*# sourceMappingURL=style.css.map */
