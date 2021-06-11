@@ -81,7 +81,7 @@ border: 2px solid nth($list: $colores, $n:3 );
     
     
         &.active{
-            background: white;   
+            background: yellow;   
             color: black;
             
             &::after{
