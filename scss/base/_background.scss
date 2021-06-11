@@ -2,5 +2,5 @@
 @import '../variables/extends';
 
 body{
-    background-color:black;
+    background-color: nth($list: $colores , $n:3 );
 }
