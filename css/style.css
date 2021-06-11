@@ -79,6 +79,7 @@ h1 {
   justify-content: right;
 }
 .contanev .dropdown-item {
+  text-align: center;
   color: #00796B;
 }
 .contanev .dropdown-item:hover {

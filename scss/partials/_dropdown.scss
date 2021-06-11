@@ -6,6 +6,7 @@
     font-size: 110%;
     padding: 5px;
     align-self: flex-end;
+
     border-radius: 35px 0px 35px 0px; 
 -moz-border-radius: 35px 0px 35px 0px; 
 -webkit-border-radius: 35px 0px 35px 0px; 
@@ -41,6 +42,7 @@ border: 2px solid nth($list: $colores, $n:3 );
     }
 
     .dropdown-item{
+        text-align: center;
         color: nth($list: $colores, $n:1 );
         &:hover{
             color: nth($list: $colores, $n:5 );
