@@ -7,4 +7,8 @@
     font-size: nth($list: $texto, $n:1 ); 
     margin: 5%;
     padding: 0% 10%;
+
+    .dark &{
+        color: nth($list: $colores, $n:2 );
+    }
 }

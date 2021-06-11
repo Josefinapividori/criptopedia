@@ -152,6 +152,9 @@ h1 {
   margin: 5%;
   padding: 0% 10%;
 }
+.dark .primero {
+  color: #ffffff;
+}
 
 /*Listas*/
 .segundo {
