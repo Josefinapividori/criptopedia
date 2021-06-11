@@ -192,7 +192,7 @@ h1 {
   font-size: 110%;
 }
 .donacion-hablamos li ul {
-  display: flex;
+  display: block;
   text-align: center;
 }
 .donacion-hablamos #hablamos {
