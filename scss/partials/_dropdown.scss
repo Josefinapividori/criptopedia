@@ -79,7 +79,7 @@ border: 2px solid nth($list: $colores, $n:3 );
 
 
     &.active{
-        background: yellowgreen;   
+        background: white;   
         color: black;
         
         &::after{
