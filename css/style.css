@@ -94,7 +94,8 @@ h1 {
   background-color: #F8BF0F;
 }
 .contanev .switch {
-  padding: 1px 1px;
+  width: 60px;
+  height: 30;
   background: black;
   border-radius: 1000px;
   border: none;
