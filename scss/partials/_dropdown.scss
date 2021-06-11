@@ -13,12 +13,12 @@
 
     #navbarDropdown{
         font-size: 110%;
-        color: nth($list: $colores, $n:2 );
+        color: nth($list: $colores, $n:3 );
 
             .dark &{
-                color: nth($list: $colores, $n:4 );
+                color: nth($list: $colores, $n:2 );
             }
-            
+
             &:hover{
                 color: nth($list: $colores, $n:5 );
             }

@@ -59,10 +59,10 @@ h1 {
 }
 .contanev #navbarDropdown {
   font-size: 110%;
-  color: #ffffff;
+  color: black;
 }
 .dark .contanev #navbarDropdown {
-  color: #8BC34A;
+  color: #ffffff;
 }
 .contanev #navbarDropdown:hover {
   color: #F8BF0F;
