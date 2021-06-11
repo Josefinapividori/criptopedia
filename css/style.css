@@ -160,7 +160,7 @@ h1 {
 .segundo {
   margin: 0%;
   padding: 5% 10%;
-  color: #ffffff;
+  color: black;
   font-size: font-size 100%;
   font-weight: 400;
   text-align: justify;
@@ -170,7 +170,7 @@ h1 {
   -webkit-border-radius: 35px 35px 35px 35px;
 }
 .dark .segundo {
-  color: black;
+  color: #ffffff;
 }
 
 /*Listas*/

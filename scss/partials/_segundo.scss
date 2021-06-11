@@ -2,7 +2,7 @@
 .segundo{
     margin: 0%;
     padding: 5% 10%;
-    color: nth($list:$colores , $n:2 ); 
+    color: nth($list:$colores , $n:3 ); 
     font-size: nth($list:$texto , $n:1 ); 
     font-weight: 400; 
     text-align: justify; 
@@ -12,6 +12,6 @@
     -webkit-border-radius: 35px 35px 35px 35px; 
 
     .dark &{
-        color: nth($list: $colores, $n:3 );
+        color: nth($list: $colores, $n:2 );
     }
 }
