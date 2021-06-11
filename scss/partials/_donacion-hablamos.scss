@@ -10,6 +10,11 @@
     padding: 5%;
     font-size: 110%;
 
+    li{
+        display: flex;
+        text-align: justify;
+    }
+
     #hablamos{
         padding: 2%;
         width: 40%;
