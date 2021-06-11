@@ -173,5 +173,15 @@ footer .amor {
 }
 
 /*Listas*/
+/*Listas*/
+.switch {
+  background: black;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
 
 /*# sourceMappingURL=style.css.map */
