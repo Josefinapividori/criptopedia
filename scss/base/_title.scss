@@ -1,6 +1,6 @@
 @import '../variables/list';
 h1{
-    color: nth($list: $colores, $n:2 );
+    color: nth($list: $colores, $n:3 );
     display:block;
     text-align: nth($list: $texto , $n: 3);
     text-decoration-style: wavy;
