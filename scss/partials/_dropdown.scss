@@ -61,7 +61,7 @@
         padding: 1px 1px;
         background:nth($list:$colores , $n:3 );
         border-radius: 1000px;
-        border:none;
+        border: none;
         position: relative; /*para el posicionamiento del icono*/
         cursor: pointer;
         display: flex;
@@ -70,8 +70,8 @@
         &::after{
             content: ""; /*el content vacio para que funcionene los demas estilos*/
             display: block; 
-            width: 35px; /*tamaño del boton*/ 
-            height: 35px;
+            width: 40px; /*tamaño del boton*/ 
+            height: 40px;
             position: absolute; /*es importante para posicionar a la derecha o izquierda*/
             background: nth($list:$colores , $n:2 );
             top: 0;

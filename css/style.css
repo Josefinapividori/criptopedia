@@ -108,9 +108,9 @@ h1 {
   content: "";
   /*el content vacio para que funcionene los demas estilos*/
   display: block;
-  width: 35px;
+  width: 40px;
   /*tamaño del boton*/
-  height: 35px;
+  height: 40px;
   position: absolute;
   /*es importante para posicionar a la derecha o izquierda*/
   background: #ffffff;
