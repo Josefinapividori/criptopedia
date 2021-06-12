@@ -78,7 +78,7 @@ h1 {
   animation-duration: 1s;
 }
 .contanev .navbar-toggler-icon {
-  background-color: #ffffff;
+  background-color: black;
   width: 5em;
   align-self: flex-end;
   border-radius: 1000px;
@@ -87,7 +87,7 @@ h1 {
   justify-content: right;
 }
 .dark .contanev .navbar-toggler-icon {
-  color: black;
+  background-color: #ffffff;
 }
 .contanev .dropdown-item {
   text-align: center;

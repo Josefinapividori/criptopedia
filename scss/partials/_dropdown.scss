@@ -31,7 +31,7 @@
 
 
     .navbar-toggler-icon{
-        background-color: nth($list:$colores , $n:2 );
+        background-color: nth($list:$colores , $n:3 );
         width: 5em;
         align-self: flex-end;
         border-radius: 1000px;
@@ -40,7 +40,7 @@
         justify-content: right;
 
         .dark &{
-            color: nth($list: $colores, $n:3 );
+            background-color: nth($list: $colores, $n:2 );
         }
     }
 
@@ -59,7 +59,7 @@
 
 
 
-/*boton modo oscuro*/
+    /*boton modo oscuro*/
     .switch{ 
         margin: 0% 70% 0%;
         width: 70px;
