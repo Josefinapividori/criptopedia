@@ -18,6 +18,11 @@
     #hablamos{
         padding: 2%;
         width: 40%;
+
+        &.dark{
+            background: nth($list: $colores , $n:2 );
+        }
+
     }
 
     .enviar{
