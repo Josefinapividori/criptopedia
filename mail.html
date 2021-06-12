@@ -8,13 +8,50 @@
     <!--iconos-->
     <script src="https://kit.fontawesome.com/8b3c4ae209.js" crossorigin="anonymous"></script>
     <title>Gracias por contactarnos, recibimos tu mail lo estaremos respondiendo en breve. </title>
+ 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
+
+    <form id="contact-form">
+        <input type="hidden" name="contact_number">
+        <label>Name</label>
+        <input type="text" name="user_name">
+        <label>Email</label>
+        <input type="email" name="user_email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- 
     <table style="max-width: 600px; padding: 10px; margin: 0 auto;">
-        <!-- tr para armar filas -->
+        
         <tr>
-            <!-- td para definir una celda -->
+            
             <td style="text-align: left; padding: 0;">
                 <a href="index.html">
                     <img src="img/mail-nombre.png" alt="" style="display: block; margin: 1.5% 3%;" width="20%">
@@ -27,10 +64,10 @@
             </td>
         </tr>
 
-        <!-- El cuerpo del mensaje -->
+ 
         <tr>
             <td style="background-color: #ecf0f1;">
-                <!-- elemento en bloque - <span> elemento en linea -->
+               
                 <div style="color: black; margin: 4% 10%; text-align: justify;
                 font-family: sans-serif;
                 ">
@@ -73,6 +110,7 @@
             </td>
         </tr>
     </table>
+    -->
 
 </body>
 
