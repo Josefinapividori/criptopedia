@@ -13,7 +13,7 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('envios_mail');
+            emailjs.init('user_VO7SmOcNad8hfRiaoKtLK');
         })();
     </script>
     <script type="text/javascript">
@@ -21,7 +21,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random(12345) * 100000 | 0;
+                this.contact_number.value = Math.random(11111) * 100000 | 0;
                 // these IDs from the previous steps
                 emailjs.sendForm('Contact Service', 'pividorijosefina@gmail.com', this)
                     .then(function() {
