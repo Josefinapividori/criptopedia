@@ -83,7 +83,7 @@ h1 {
   align-self: flex-end;
   border-radius: 1000px;
   color: #00796B;
-  padding: 0px 0px;
+  padding: 5px 5px 5px;
   justify-content: right;
 }
 .dark .contanev .navbar-toggler-icon {

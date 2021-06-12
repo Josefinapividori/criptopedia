@@ -36,7 +36,7 @@
         align-self: flex-end;
         border-radius: 1000px;
         color: nth($list: $colores, $n:1 );
-        padding: 0px 0px ;
+        padding: 5px 5px 5px;
         justify-content: right;
 
         .dark &{
