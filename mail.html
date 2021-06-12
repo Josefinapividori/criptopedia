@@ -13,7 +13,7 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('contact_service');
+            emailjs.init('envios_mail');
         })();
     </script>
     <script type="text/javascript">
@@ -23,7 +23,7 @@
                 // generate a five digit number for the contact_number variable
                 this.contact_number.value = Math.random() * 100000 | 0;
                 // these IDs from the previous steps
-                emailjs.sendForm('template_nbtw2t9', 'contact_service', this)
+                emailjs.sendForm('template_nbtw2t9', 'envios_mail', this)
                     .then(function() {
                         console.log('SUCCESS!');
                     }, function(error) {
