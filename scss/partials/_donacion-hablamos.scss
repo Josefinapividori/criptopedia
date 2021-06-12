@@ -19,8 +19,8 @@
         padding: 2%;
         width: 40%;
 
-        &.dark .form-label{
-           color: nth($list: $colores , $n:2 );
+        &.dark {
+           color: nth($list: $colores , $n:3 );
         }
 
     }
