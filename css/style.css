@@ -79,13 +79,15 @@ h1 {
 }
 .contanev .navbar-toggler-icon {
   background-color: #ffffff;
-  padding: 2em;
   width: 5em;
   align-self: flex-end;
   border-radius: 1000px;
   color: #00796B;
   padding: 0px 0px;
   justify-content: right;
+}
+.dark .contanev .navbar-toggler-icon {
+  color: black;
 }
 .contanev .dropdown-item {
   text-align: center;
