@@ -38,9 +38,11 @@
         color: nth($list: $colores, $n:1 );
         padding: 5px 5px 5px;
         justify-content: right;
+        outline: none;
 
         .dark &{
             background-color: nth($list: $colores, $n:2 );
+            outline: none;
         }
     }
 

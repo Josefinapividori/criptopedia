@@ -85,9 +85,11 @@ h1 {
   color: #00796B;
   padding: 5px 5px 5px;
   justify-content: right;
+  outline: none;
 }
 .dark .contanev .navbar-toggler-icon {
   background-color: #ffffff;
+  outline: none;
 }
 .contanev .dropdown-item {
   text-align: center;
