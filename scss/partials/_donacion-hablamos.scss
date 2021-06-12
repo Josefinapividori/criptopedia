@@ -19,10 +19,6 @@
         padding: 2%;
         width: 40%;
 
-        &.dark {
-           color: nth($list: $colores , $n:3 );
-        }
-
     }
 
     .enviar{
