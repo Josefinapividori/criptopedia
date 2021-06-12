@@ -12,4 +12,4 @@ window.addEventListener('scroll', function (){
     mercurio.style.left     = -value * 2 + 'px';
     astronauta.style.top    = -value * 2 + 'px';
     text.style.top          = value * 0.75 + 'px';
-})
+});
