@@ -23,7 +23,7 @@
                 // generate a five digit number for the contact_number variable
                 this.contact_number.value = Math.random(11111) * 100000 | 0;
                 // these IDs from the previous steps
-                emailjs.sendForm('envios_mail', 'pividorijosefina@gmail.com', this)
+                emailjs.sendForm('envios_mail', 'contact_form', this)
                     .then(function() {
                         console.log('SUCCESS!');
                     }, function(error) {
