@@ -36,9 +36,8 @@
         width: 5em;
         align-self: flex-end;
         border-radius: 1000px;
-    
         color: nth($list: $colores, $n:1 );
-        padding: 3px 6px ;
+        padding: 0px 0px ;
         justify-content: right;
     }
 
