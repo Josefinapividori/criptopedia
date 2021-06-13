@@ -191,7 +191,7 @@ h1 {
   text-align: text-align center;
   justify-content: space-evenly;
   text-decoration-style: wavy;
-  padding: 10% 10% 10%;
+  padding: 5% 5% 5%;
   font-size: 100%;
 }
 .donacion-hablamos li p a {
@@ -200,7 +200,7 @@ h1 {
 }
 .donacion-hablamos .hablamos {
   padding: 2%;
-  width: 40%;
+  width: 50%;
 }
 .donacion-hablamos .enviar {
   background: #8BC34A;
