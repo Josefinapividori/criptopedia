@@ -6,7 +6,7 @@
     text-decoration-style: wavy;
     font-size: nth($list: $texto, $n:1 ); 
     margin: 5%;
-    padding: 0% 10%;
+    padding: 5% 10% 10%;
 
     .dark &{
         color: nth($list: $colores, $n:3 );
