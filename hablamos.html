@@ -16,7 +16,7 @@
         })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
+        window.onload = function() { 
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // generate a five digit number for the contact_number variable
@@ -29,8 +29,13 @@
                         console.log('FAILED...', error);
                     });      
             });
-        }
+
+            document.getElementById('boton').onclick = function(){
+            alert('Tu mensaje se envió correctamente! pronto nos comunicaremos con vos');
+            }
+        }    
     </script>
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -46,8 +51,10 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+-->    
 </head>
 
 
@@ -169,13 +176,15 @@
 
             
             <label class="form-check-label" for="flexCheckIndeterminate">
-                <input type="submit" value="Send" class="btn btn-light enviar"> 
+                <input id="boton" type="submit" value="Send" class="btn btn-light enviar"> 
             </label>
-            
-            <div class="alert alert-primary" role="alert">
+
+            <!--
+                <div id="alerta" class="alert alert-primary" role="alert">
                 Tu mensaje se enviará automáticamente al precionar el botón, <a href="index.html" class="alert-link">podes ir a inicio</a>, gracias por escribirnos.
-            </div>            
-            
+            </div>
+                -->
+           
         </form>
     </div>
 
