@@ -27,8 +27,9 @@
                         console.log('SUCCESS!');
                     }, function(error) {
                         console.log('FAILED...', error);
-                    });
+                    });      
             });
+            <font style = "vertical-alinear: heredar;"> <font style = "vertical-align: heredar;"> enlace de alerta </font> </font>
         }
     </script>
 
@@ -167,11 +168,15 @@
             </label>
             <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
-            <a href="index.html">
+            
             <label class="form-check-label" for="flexCheckIndeterminate">
-                <input type="submit" value="Send" class="btn btn-light enviar" > 
+                <input type="submit" value="Send" class="btn btn-light enviar"> 
             </label>
-            </a>
+            
+            <div class="alert alert-primary" role="alert">
+                Tu mensaje se enviará automáticamente al precionar el botón, <a href="index.html" class="alert-link">podes ir a inicio</a>, gracias por escribirnos.
+            </div>            
+            
         </form>
     </div>
 
