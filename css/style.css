@@ -198,7 +198,7 @@ h1 {
   display: block;
   text-align: center;
 }
-.donacion-hablamos #hablamos {
+.donacion-hablamos .hablamos {
   padding: 2%;
   width: 40%;
 }
