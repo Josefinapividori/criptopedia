@@ -1,7 +1,7 @@
 @import '../variables/list';
 .segundo{
     margin: 2%;
-    padding: 5% 10% 10%;
+    padding: 5% 5% 5%;
     color: nth($list:$colores , $n:3 ); 
     font-size: nth($list:$texto , $n:1 ); 
     font-weight: 400; 
