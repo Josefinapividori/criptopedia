@@ -67,7 +67,7 @@ h1 {
   font-size: 110%;
   color: black;
 }
-.dark .contanev #navbarDropdown {
+.light .contanev #navbarDropdown {
   color: #ffffff;
 }
 .contanev #navbarDropdown:hover {
@@ -87,7 +87,7 @@ h1 {
   justify-content: right;
   outline: none;
 }
-.dark .contanev .navbar-toggler-icon {
+.light .contanev .navbar-toggler-icon {
   background-color: #ffffff;
   outline: none;
 }
@@ -210,7 +210,7 @@ h1 {
 
 /*Listas*/
 footer {
-  margin-bottom: 0%;
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 5%;
@@ -228,7 +228,7 @@ footer .amor {
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
 }
-.dark footer {
+.light footer {
   color: #ffffff;
 }
 

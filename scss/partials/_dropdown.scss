@@ -15,7 +15,7 @@
         font-size: 110%;
         color: nth($list: $colores, $n:3 );
 
-            .dark &{
+            .light &{
                 color: nth($list: $colores, $n:2 );
             }
 
@@ -40,7 +40,7 @@
         justify-content: right;
         outline: none;
 
-        .dark &{
+        .light &{
             background-color: nth($list: $colores, $n:2 );
             outline: none;
         }

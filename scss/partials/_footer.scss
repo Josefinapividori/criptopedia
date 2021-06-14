@@ -1,6 +1,6 @@
 @import '../variables/list';
 footer{
-    margin-bottom: 0%;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 5%;
@@ -18,7 +18,7 @@ footer{
         animation-iteration-count: 1000;
     }
 
-    .dark &{
+    .light &{
         color: nth($list: $colores, $n:2 );
     }
 
