@@ -9,7 +9,7 @@ h1{
     animation: bounce; 
     animation-duration: 1s;
 
-    .dark &{
+    .light &{
         color: nth($list: $colores, $n:3 );
     }
 
@@ -25,7 +25,7 @@ h1{
     animation: bounce; 
     animation-duration: 1s;
 
-    .dark &{
+    .light &{
         color: nth($list: $colores, $n:2 );
     }
 }

@@ -5,7 +5,7 @@ body{
     background:  nth($list: $colores , $n:3); 
     transition: .5 ease all;
 
-    &.dark{
+    &.light{
         background: nth($list: $colores , $n:2 );
     }
 

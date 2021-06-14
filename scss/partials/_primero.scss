@@ -8,7 +8,7 @@
     margin: 5%;
     padding: 2% 2% 2%;
 
-    .dark &{
+    .light &{
         color: nth($list: $colores, $n:3 );
     }
 }
