@@ -7,7 +7,6 @@ footer{
     background: nth($list: $colores, $n:1 );
     min-height: 20px;
     text-align: center;
-    font-size: nth($list: $texto, $n:1 );
     padding: 1%;
     align-self: flex-end;
     border-radius: 35px 0px 35px 0px; 

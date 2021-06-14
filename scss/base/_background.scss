@@ -3,7 +3,7 @@
 
 body{
     background:  nth($list: $colores , $n:3); 
-    transition: .3 ease all;
+    transition: .5 ease all;
 
     &.dark{
         background: nth($list: $colores , $n:2 );

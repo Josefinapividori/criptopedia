@@ -3,7 +3,7 @@
 @import url("https://fonts.gstatic.com");
 body {
   background: black;
-  transition: 0.3 ease all;
+  transition: 0.5 ease all;
 }
 body.dark {
   background: #ffffff;
@@ -216,7 +216,6 @@ footer {
   background: #00796B;
   min-height: 20px;
   text-align: center;
-  font-size: font-size 100%;
   padding: 1%;
   align-self: flex-end;
   border-radius: 35px 0px 35px 0px;
