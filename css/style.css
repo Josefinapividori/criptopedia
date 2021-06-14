@@ -53,6 +53,7 @@ h1 {
 /*Listas*/
 .contanev {
   background: #00796B;
+  filter: alpha(opacity=70);
   min-height: 20px;
   text-align: center;
   font-size: 110%;
