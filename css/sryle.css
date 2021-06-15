@@ -231,10 +231,6 @@ footer .amor {
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
 }
-footer p button {
-  background-color: #000000;
-  color: #ffffff;
-}
 footer a {
   text-decoration: none;
   color: #000000;
