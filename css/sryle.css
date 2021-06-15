@@ -231,9 +231,10 @@ footer .amor {
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
 }
-footer a {
+footer a p {
   text-decoration: none;
   color: #000000;
+  width: 100%;
 }
 .light footer {
   color: #ffffff;

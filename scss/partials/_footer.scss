@@ -16,9 +16,10 @@ footer{
         animation-duration: 0.5s;
         animation-iteration-count: 1000;
     }
-    a{
+    a p{
         text-decoration: none;
         color: nth($list: $colores , $n:3 );
+        width: 100%;
     }
     .light &{
         color: nth($list: $colores, $n:2 );
