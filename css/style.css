@@ -2,11 +2,11 @@
 /*Listas*/
 @import url("https://fonts.gstatic.com");
 body {
-  background: #392F50;
+  background: #000000;
   transition: 0.5 ease all;
 }
 body.light {
-  background: #FFF8F0;
+  background: #ffffff;
 }
 
 /*Reseteo de estilos*/
@@ -23,36 +23,36 @@ body.light {
 /*si lo importo aca, no tengo que importarlo en cada archivo de HTML*/
 /*Listas*/
 h1 {
-  color: #FFF8F0;
+  color: #ffffff;
   display: block;
   text-align: text-align center;
   text-decoration-style: wavy;
-  font-size: font-size 100%;
+  font-size: font-size 150%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
 }
 .light h1 {
-  color: #392F50;
+  color: #000000;
 }
 
 .fake-h1 {
-  color: #392F50;
+  color: #000000;
   display: block;
   text-align: left;
   text-decoration-style: wavy;
-  font-size: font-size 100%;
+  font-size: font-size 150%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
 }
 .light .fake-h1 {
-  color: #FFF8F0;
+  color: #ffffff;
 }
 
 /*Listas*/
 .contanev {
-  background: #F4D06F;
+  background: #2A9D8F;
   /*filter: alpha(opacity=70);*/
   min-height: 20px;
   text-align: center;
@@ -61,53 +61,53 @@ h1 {
   align-self: flex-end;
   border-radius: 0px 0px 35px 35px;
   -webkit-border-radius: 0px 0px 35px 35px;
-  box-shadow: #F4D06F;
+  box-shadow: #2A9D8F;
   /*boton modo oscuro*/
 }
 .contanev #navbarDropdown {
   font-size: 110%;
-  color: #392F50;
+  color: #000000;
 }
 .light .contanev #navbarDropdown {
-  color: #FFF8F0;
+  color: #ffffff;
 }
 .contanev #navbarDropdown:hover {
-  color: #9DD9D2;
+  color: #F4A261;
 }
 .contanev #navbarDropdown ::after {
   animation: bounce;
   animation-duration: 1s;
 }
 .contanev .navbar-toggler-icon {
-  background-color: #392F50;
+  background-color: #000000;
   width: 5em;
   align-self: flex-end;
   border-radius: 1000px;
-  color: #F4D06F;
+  color: #2A9D8F;
   padding: 5px 5px 5px;
   justify-content: right;
   outline: none;
 }
 .light .contanev .navbar-toggler-icon {
-  background-color: #FFF8F0;
+  background-color: #ffffff;
   outline: none;
 }
 .contanev .dropdown-item {
   text-align: center;
-  color: #F4D06F;
+  color: #2A9D8F;
 }
 .contanev .dropdown-item:hover {
-  color: #9DD9D2;
+  color: #F4A261;
 }
 .contanev .btn-outline-success {
-  color: #FFF8F0;
-  background-color: #9DD9D2;
+  color: #ffffff;
+  background-color: #F4A261;
 }
 .contanev .switch {
   margin: 0% 70% 0%;
   width: 70px;
   height: 35px;
-  background: #392F50;
+  background: #000000;
   border-radius: 1000px;
   border: none;
   position: relative;
@@ -125,7 +125,7 @@ h1 {
   height: 35px;
   position: absolute;
   /*es importante para posicionar a la derecha o izquierda*/
-  background: #FFF8F0;
+  background: #ffffff;
   top: 0;
   left: 0;
   right: unset;
@@ -136,8 +136,8 @@ h1 {
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .contanev .switch.active {
-  background: #9DD9D2;
-  color: #392F50;
+  background: #F4A261;
+  color: #000000;
 }
 .contanev .switch.active::after {
   right: 0;
@@ -149,38 +149,38 @@ h1 {
   line-height: 35px;
   display: block;
   background: none;
-  color: #FFF8F0;
+  color: #ffffff;
 }
 
 /*Listas*/
 .primero {
-  color: #FFF8F0;
+  color: #ffffff;
   display: block;
   text-align: justify;
   text-decoration-style: wavy;
-  font-size: font-size 100%;
+  font-size: font-size 150%;
   margin: 5%;
   padding: 2% 2% 2%;
 }
 .light .primero {
-  color: #392F50;
+  color: #000000;
 }
 
 /*Listas*/
 .segundo {
   margin: 2%;
   padding: 5% 5% 5%;
-  color: #392F50;
-  font-size: font-size 100%;
+  color: #000000;
+  font-size: font-size 150%;
   font-weight: 400;
   text-align: justify;
-  background: #F4D06F;
+  background: #2A9D8F;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 35px 35px 35px;
 }
 .light .segundo {
-  color: #FFF8F0;
+  color: #ffffff;
 }
 
 /*Listas*/
@@ -205,8 +205,8 @@ h1 {
   width: 100%;
 }
 .donacion-hablamos .enviar {
-  background: #FF8811;
-  color: #FFF8F0;
+  background: #2A9D8F;
+  color: #ffffff;
 }
 
 /*Listas*/
@@ -214,8 +214,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 5%;
-  color: #392F50;
-  background: #F4D06F;
+  color: #000000;
+  background: #2A9D8F;
   min-height: 10%;
   text-align: center;
   padding: 1%;
@@ -228,8 +228,12 @@ footer .amor {
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
 }
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
 .light footer {
-  color: #FFF8F0;
+  color: #ffffff;
 }
 
 /*Listas*/
