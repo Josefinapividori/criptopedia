@@ -1,7 +1,7 @@
 @import '../variables/list';
 .contanev{
-    background: nth($list: $colores, $n:2 ); 
-    /*filter: alpha(opacity=70);*/
+    background: nth($list: $colores, $n:3 ); 
+    filter: alpha(opacity=70);
     min-height: 20px;
     text-align: center;
     font-size: 110%;
@@ -14,7 +14,7 @@
 
     #navbarDropdown{
         font-size: 110%;
-        color: nth($list: $colores, $n:3 );
+        color: nth($list: $colores, $n:1 );
 
             .light &{
                 color: nth($list: $colores, $n:2 );
