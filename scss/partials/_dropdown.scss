@@ -11,13 +11,19 @@
     border-radius: 0px 0px 35px 35px; 
 -webkit-border-radius: 0px 0px 35px 35px; 
     box-shadow: nth($list:$colores , $n:1 );
+    
+
+        .light &{
+            background: nth($list: $colores, $n:2 );
+        }
+
 
     #navbarDropdown{
         font-size: 110%;
         color: nth($list: $colores, $n:1 );
 
             .light &{
-                color: nth($list: $colores, $n:2 );
+                color: nth($list: $colores, $n:1 );
             }
 
             &:hover{

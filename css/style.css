@@ -64,12 +64,15 @@ h1 {
   box-shadow: #2A9D8F;
   /*boton modo oscuro*/
 }
+.light .contanev {
+  background: #ffffff;
+}
 .contanev #navbarDropdown {
   font-size: 110%;
   color: #2A9D8F;
 }
 .light .contanev #navbarDropdown {
-  color: #ffffff;
+  color: #2A9D8F;
 }
 .contanev #navbarDropdown:hover {
   color: #F4A261;
