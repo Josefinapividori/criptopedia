@@ -208,6 +208,9 @@ h1 {
   background: #2A9D8F;
   color: #ffffff;
 }
+.donacion-hablamos .alert {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*Listas*/
 footer {
