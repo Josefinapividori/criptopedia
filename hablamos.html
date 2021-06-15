@@ -2,151 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hablamos?</title>
-
     <script src="sweetalert2.all.min.js"></script>
-    <script src="sweetalert2.min.js"></script>
-    <link rel="stylesheet" href="sweetalert2.min.css">
-
+    <!-- <script src="sweetalert2.min.js"></script> -->
+    <link rel="stylesheet" href="sweetalert2.min.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('user_VO7SmOcNad8hfRiaoKtLK');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() { 
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random(11111) * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('envios_mail', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });      
-            });
-
-            document.getElementById('boton').onclick = function(){
-                Swal.fire({  
-                    position: 'top-end',  
-                    icon: 'success',  
-                    title: 'Tu mensaje fue enviado con exito',  
-                    showConfirmButton: false,  
-                    timer: 1500  
-                }) 
-            }
-        }    
-    </script>
-
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <!--Animación-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
     <!--iconos-->
     <script src="https://kit.fontawesome.com/8b3c4ae209.js" crossorigin="anonymous"></script>
-
     <!--CSS-->
-    <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet" />
     <!--Fonts-->
-<!--
+    <!--
 <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
--->    
+-->
 </head>
 
-
 <body>
-
     <section class="contanev">
-
         <nav class="nav navbar navbar-expand-xl div">
             <div class="container-fluid">
-
                 <a class="navbar-brand" href="index.html"><img src="img/logotipo.gif" alt="logo"
-                        style="width: 110px; height: 110px;">
+                        style="width: 110px; height: 110px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon dropdown-toggle">MENU</span>
                 </button>
-
-
-                <div class="collapse navbar-collapse hola " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse hola" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
                         <li class="nav-item dropdown">
                             <a class="nav-link active dropdown-toggle" href="wallets.html" id="navbarDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Billeteras
                             </a>
-
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="wallets.html">Que es una wallet</a></li>
-                                <li><a class="dropdown-item" href="wallets.html#tipos">Tipos</a></li>
-                                <li><a class="dropdown-item" href="wallets.html#precauciones">Precauciones</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="wallets.html">Que es una wallet</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="wallets.html#tipos">Tipos</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="wallets.html#precauciones">Precauciones</a>
+                                </li>
                             </ul>
                         </li>
-
                         <li class="nav-item dropdown">
                             <a class="nav-link active dropdown-toggle" href="bitcoin.html" id="navbarDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Bitcoin
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="bitcoin.html">Que es Bitcoin</a></li>
-                                <li><a class="dropdown-item" href="bitcoin.html#caracteristicasbtc">Caracteristicas</a>
+                                <li>
+                                    <a class="dropdown-item" href="bitcoin.html">Que es Bitcoin</a>
                                 </li>
-                                <li><a class="dropdown-item" href="bitcoin.html#conseguirlosbtc">Como conseguirlos</a>
+                                <li>
+                                    <a class="dropdown-item" href="bitcoin.html#caracteristicasbtc">Caracteristicas</a>
                                 </li>
-
+                                <li>
+                                    <a class="dropdown-item" href="bitcoin.html#conseguirlosbtc">Como conseguirlos</a>
+                                </li>
                             </ul>
                         </li>
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="ethereum.html" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Ethereum
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="ethereum.html">Que es Ethereum</a></li>
-                                <li><a class="dropdown-item" href="ethereum.html#caracteristicaseth">Caracteristicas</a>
+                                <li>
+                                    <a class="dropdown-item" href="ethereum.html">Que es Ethereum</a>
                                 </li>
-                                <li><a class="dropdown-item" href="ethereum.html#consegirloseth">Como conseguirlos</a>
+                                <li>
+                                    <a class="dropdown-item" href="ethereum.html#caracteristicaseth">Caracteristicas</a>
                                 </li>
-
+                                <li>
+                                    <a class="dropdown-item" href="ethereum.html#consegirloseth">Como conseguirlos</a>
+                                </li>
                             </ul>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="donacion.html"
-                                id="navbarDropdown">Donación </a>
+                                id="navbarDropdown">Donación
+                            </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="hablamos.html"
-                                id="navbarDropdown">Hablamos? </a>
+                                id="navbarDropdown">Hablamos?
+                            </a>
                         </li>
-
                         <button class="switch" id="switch">
                             <span><i class="fas fa-sun"></i></span>
                             <span><i class="fas fa-moon"></i></span>
                         </button>
-
                     </ul>
-
                     <!--Lo haré funcionar en otro momento 
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -157,59 +116,114 @@
             </div>
         </nav>
     </section>
-
-
     <div class="donacion-hablamos container-fluid">
-        <h1>
-            Hablamos? <i class="fas fa-comment"></i>
-        </h1>
-
+        <h1>Hablamos? <i class="fas fa-comment"></i></h1>
         <form class="hablamos" id="contact-form">
-            <input type="hidden" name="contact_number">
-
+            <input type="hidden" name="contact_number" />
             <label for="exampleFormControlInput1" class="form-label">
                 Tu nombre
             </label>
-            <input type="text" name="user_name" class="form-control" id="exampleFormControlInput1" placeholder="como te gusta que te llamen">
-
+            <input type="text" name="user_name" class="form-control" id="exampleFormControlInput1"
+                placeholder="como te gusta que te llamen" />
             <label for="exampleFormControlInput1" class="form-label">
                 Tu correo
             </label>
-            <input type="email" name="user_email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-
+            <input type="email" name="user_email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com" />
             <label for="exampleFormControlTextarea1" class="form-label">
                 Lo que quieras <i class="far fa-paper-plane"></i>
             </label>
             <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-            
             <label class="form-check-label" for="flexCheckIndeterminate">
-                <input id="boton" type="submit" value="Send" class="btn btn-light enviar"> 
+                <input id="boton" type="submit" value="Send" class="btn btn-light enviar" />
             </label>
-
             <!--
                 <div id="alerta" class="alert alert-primary" role="alert">
                 Tu mensaje se enviará automáticamente al precionar el botón, <a href="index.html" class="alert-link">podes ir a inicio</a>, gracias por escribirnos.
             </div>
                 -->
-           
         </form>
     </div>
-
     <footer>
         <p>
-            Hecho con <i class="far fa-heart amor"></i> por Josefina Pividori
+            Podes envíar tu <i class="far fa-heart amor"></i>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Aca
+            </button>
+            <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gracias!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <i class="fab fa-ethereum"></i>
+                            0x4DeCc494e32F58569041dE1e9c3b920C49964a2e
+                        </p>
+                        <p>
+                            <i class="fab fa-bitcoin"></i>
+                            bc1q2p0td6sxe09g5rzzd5qqssqs65xck5wekgck82
+                        </p>
+                        <p>
+                            <a href="mercadopago.com">Con mercado pago</a>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </p>
+
     </footer>
 
 
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init("user_VO7SmOcNad8hfRiaoKtLK");
+        })();
     </script>
-   <script src="js/main.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document
+                .getElementById("contact-form")
+                .addEventListener("submit", function (event) {
+                    event.preventDefault();
+                    // generate a five digit number for the contact_number variable
+                    this.contact_number.value = (Math.random(11111) * 100000) | 0;
+                    // these IDs from the previous steps
+                    emailjs.sendForm("envios_mail", "contact_form", this).then(
+                        function () {
+                            console.log("SUCCESS!");
+                            Swal.fire({
+                                position: "center",
+                                icon: "success",
+                                title: "Tu mensaje fue enviado con exito",
+                                showConfirmButton: false,
+                                timer: 2500,
+                            });
+                        },
+                        function (error) {
+                            console.log("FAILED...", error);
+                        }
+                    );
+                });
+        };
+    </script>
 </body>
 
 </html>

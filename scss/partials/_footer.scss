@@ -16,12 +16,15 @@ footer{
         animation-duration: 0.5s;
         animation-iteration-count: 1000;
     }
+    p button{
+        background-color: nth($list: $colores , $n:3 );
+        color: nth($list: $colores, $n:2 ) ;
+    }
 
     a{
         text-decoration: none;
         color: nth($list: $colores , $n:3 );
     }
-
     .light &{
         color: nth($list: $colores, $n:2 );
     }
