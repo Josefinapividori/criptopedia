@@ -2,11 +2,11 @@
 /*Listas*/
 @import url("https://fonts.gstatic.com");
 body {
-  background: #000000;
+  background: #048B8D;
   transition: 0.5 ease all;
 }
 body.light {
-  background: #ffffff;
+  background: #ffff;
 }
 
 /*Reseteo de estilos*/
@@ -23,7 +23,7 @@ body.light {
 /*si lo importo aca, no tengo que importarlo en cada archivo de HTML*/
 /*Listas*/
 h1 {
-  color: #ffffff;
+  color: #ffff;
   display: block;
   text-align: text-align center;
   text-decoration-style: wavy;
@@ -33,11 +33,11 @@ h1 {
   animation-duration: 1s;
 }
 .light h1 {
-  color: #000000;
+  color: #036769;
 }
 
 .fake-h1 {
-  color: #000000;
+  color: #ffff;
   display: block;
   text-align: left;
   text-decoration-style: wavy;
@@ -47,13 +47,12 @@ h1 {
   animation-duration: 1s;
 }
 .light .fake-h1 {
-  color: #ffffff;
+  color: #036769;
 }
 
 /*Listas*/
 .contanev {
-  background: #000000;
-  filter: alpha(opacity=70);
+  background: #036769;
   min-height: 20px;
   text-align: center;
   font-size: 110%;
@@ -61,56 +60,59 @@ h1 {
   align-self: flex-end;
   border-radius: 0px 0px 35px 35px;
   -webkit-border-radius: 0px 0px 35px 35px;
-  box-shadow: #2A9D8F;
+  box-shadow: #ffff;
   /*boton modo oscuro*/
 }
 .light .contanev {
-  background: #ffffff;
+  background: #99CCCD;
 }
 .contanev #navbarDropdown {
   font-size: 110%;
-  color: #2A9D8F;
+  color: #ffff;
 }
 .light .contanev #navbarDropdown {
-  color: #2A9D8F;
+  color: #ffff;
 }
 .contanev #navbarDropdown:hover {
-  color: #F4A261;
+  color: #028A8D;
+}
+.light .contanev #navbarDropdown:hover {
+  color: #036769;
 }
 .contanev #navbarDropdown ::after {
   animation: bounce;
   animation-duration: 1s;
 }
 .contanev .navbar-toggler-icon {
-  background-color: #000000;
+  background-color: #028A8D;
   width: 5em;
   align-self: flex-end;
   border-radius: 1000px;
-  color: #2A9D8F;
+  color: #ffff;
   padding: 5px 5px 5px;
   justify-content: right;
   outline: none;
 }
 .light .contanev .navbar-toggler-icon {
-  background-color: #ffffff;
+  background-color: #99CCCD;
   outline: none;
 }
 .contanev .dropdown-item {
   text-align: center;
-  color: #2A9D8F;
+  color: #028A8D;
 }
 .contanev .dropdown-item:hover {
-  color: #F4A261;
+  color: #036769;
 }
 .contanev .btn-outline-success {
-  color: #ffffff;
-  background-color: #F4A261;
+  color: #99CCCD;
+  background-color: #036769;
 }
 .contanev .switch {
   margin: 0% 70% 0%;
   width: 70px;
   height: 35px;
-  background: #000000;
+  background: #028A8D;
   border-radius: 1000px;
   border: none;
   position: relative;
@@ -128,7 +130,7 @@ h1 {
   height: 35px;
   position: absolute;
   /*es importante para posicionar a la derecha o izquierda*/
-  background: #ffffff;
+  background: #99CCCD;
   top: 0;
   left: 0;
   right: unset;
@@ -139,8 +141,8 @@ h1 {
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .contanev .switch.active {
-  background: #F4A261;
-  color: #000000;
+  background: #036769;
+  color: #028A8D;
 }
 .contanev .switch.active::after {
   right: 0;
@@ -152,12 +154,12 @@ h1 {
   line-height: 35px;
   display: block;
   background: none;
-  color: #ffffff;
+  color: #99CCCD;
 }
 
 /*Listas*/
 .primero {
-  color: #ffffff;
+  color: #ffff;
   display: block;
   text-align: justify;
   text-decoration-style: wavy;
@@ -165,25 +167,30 @@ h1 {
   margin: 5%;
   padding: 2% 2% 2%;
 }
+.primero tr {
+  column-count: 2;
+  column-gap: 10px;
+}
 .light .primero {
-  color: #000000;
+  color: #028A8D;
 }
 
 /*Listas*/
 .segundo {
   margin: 2%;
   padding: 5% 5% 5%;
-  color: #000000;
+  color: #ffff;
   font-size: font-size 150%;
   font-weight: 400;
   text-align: justify;
-  background: #2A9D8F;
+  background: #036769;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 35px 35px 35px;
 }
 .light .segundo {
-  color: #ffffff;
+  background: #99CCCD;
+  color: #036769;
 }
 
 /*Listas*/
@@ -208,8 +215,8 @@ h1 {
   width: 100%;
 }
 .donacion-hablamos .enviar {
-  background: #2A9D8F;
-  color: #ffffff;
+  background: #048B8D;
+  color: #99CCCD;
 }
 .donacion-hablamos .alert {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -220,8 +227,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 5%;
-  color: #000000;
-  background: #2A9D8F;
+  color: #ffff;
+  background: #036769;
   min-height: 10%;
   text-align: center;
   padding: 1%;
@@ -234,13 +241,15 @@ footer .amor {
   animation-duration: 0.5s;
   animation-iteration-count: 1000;
 }
-footer a p {
+footer .modal .modal-body p {
   text-decoration: none;
-  color: #000000;
+  color: #028A8D;
   width: 100%;
+  padding: 1%;
 }
 .light footer {
-  color: #ffffff;
+  background: #99CCCD;
+  color: #028A8D;
 }
 
 /*Listas*/

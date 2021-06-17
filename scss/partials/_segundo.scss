@@ -2,16 +2,17 @@
 .segundo{
     margin: 2%;
     padding: 5% 5% 5%;
-    color: nth($list:$colores , $n:3 ); 
+    color: nth($list:$colores , $n:1 ); 
     font-size: nth($list:$texto , $n:1 ); 
     font-weight: 400; 
     text-align: justify; 
-    background: nth($list:$colores , $n:1 ); 
+    background: nth($list:$colores , $n:5 ); 
     overflow: hidden; 
     border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 35px 35px 35px; 
 
     .light &{
-        color: nth($list: $colores, $n:2 );
+        background: nth($list:$colores , $n:2 );
+        color: nth($list: $colores, $n:5 );
     }
 }

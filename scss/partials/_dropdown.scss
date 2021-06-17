@@ -1,7 +1,6 @@
 @import '../variables/list';
 .contanev{
-    background: nth($list: $colores, $n:3 ); 
-    filter: alpha(opacity=70);
+    background: nth($list: $colores, $n:5 );
     min-height: 20px;
     text-align: center;
     font-size: 110%;
@@ -27,7 +26,10 @@
             }
 
             &:hover{
-                color: nth($list: $colores, $n:5 );
+                color: nth($list: $colores, $n:3 );
+                    .light &{
+                        color: nth($list: $colores, $n:5 );
+                    }
             }
             ::after{
                 animation: bounce; 
@@ -55,7 +57,7 @@
 
     .dropdown-item{
         text-align: center;
-        color: nth($list: $colores, $n:1 );
+        color: nth($list: $colores, $n:3 );
         &:hover{
             color: nth($list: $colores, $n:5 );
         }
