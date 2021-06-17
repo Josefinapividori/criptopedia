@@ -31,9 +31,11 @@ h1 {
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
+  font-weight: bold;
 }
 .light h1 {
   color: #036769;
+  font-weight: bold;
 }
 
 .fake-h1 {
@@ -45,9 +47,11 @@ h1 {
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
+  font-weight: bold;
 }
 .light .fake-h1 {
   color: #036769;
+  font-weight: bold;
 }
 
 /*Listas*/
@@ -55,7 +59,7 @@ h1 {
   background: #036769;
   min-height: 20px;
   text-align: center;
-  font-size: 110%;
+  font-size: 140%;
   padding: 5px;
   align-self: flex-end;
   border-radius: 0px 0px 35px 35px;
@@ -69,6 +73,7 @@ h1 {
 .contanev #navbarDropdown {
   font-size: 110%;
   color: #ffff;
+  font-weight: bold;
 }
 .light .contanev #navbarDropdown {
   color: #ffff;

@@ -8,9 +8,11 @@ h1{
     padding: 1% 1%; 
     animation: bounce; 
     animation-duration: 1s;
+    font-weight: bold;
 
     .light &{
         color: nth($list: $colores, $n:5 );
+        font-weight: bold;
     }
 
 }
@@ -24,8 +26,10 @@ h1{
     padding: 1% 1%; 
     animation: bounce; 
     animation-duration: 1s;
+    font-weight: bold;
 
     .light &{
         color: nth($list: $colores, $n:5 );
+        font-weight: bold;
     }
 }

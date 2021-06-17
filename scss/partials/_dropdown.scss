@@ -3,7 +3,7 @@
     background: nth($list: $colores, $n:5 );
     min-height: 20px;
     text-align: center;
-    font-size: 110%;
+    font-size: 140%;
     padding: 5px;
     align-self: flex-end;
 
@@ -20,6 +20,7 @@
     #navbarDropdown{
         font-size: 110%;
         color: nth($list: $colores, $n:1 );
+        font-weight: bold;
 
             .light &{
                 color: nth($list: $colores, $n:1 );
