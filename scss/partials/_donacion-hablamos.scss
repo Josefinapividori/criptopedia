@@ -7,7 +7,7 @@
     text-align: nth($list: $texto , $n:3);
     justify-content:space-evenly;
     text-decoration-style: wavy;
-    padding: 5% 5% 5%;
+    padding: 0%;
     font-size: 100%;
 
     li p a{
@@ -22,11 +22,7 @@
     }
 
     .enviar{
-        background: nth($list: $colores, $n:4 ); 
-        color: nth($list: $colores, $n:2 );
+        background: nth($list: $colores, $n:5 ); 
+        color: nth($list: $colores, $n:1 );
     }
-    .alert{
-        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    }
-
 }
