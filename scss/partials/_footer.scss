@@ -20,7 +20,8 @@ footer{
         text-decoration: none;
         color: nth($list: $colores , $n:3 );
         width: 100%;
-        padding: 1%;        
+        padding: 1%;  
+        
     }
     .light &{
         background: nth($list: $colores, $n:2 );
