@@ -261,6 +261,7 @@ footer .modal .modal-body p {
 }
 
 /*Listas*/
+/*Listas*/
 .cmn-divfloat {
   position: fixed !important;
   bottom: 45px;
@@ -275,6 +276,17 @@ footer .modal .modal-body p {
   border-radius: 15px;
   font-size: 18px;
   text-align: center;
+}
+
+.btn-primary {
+  background: #036769;
+  color: #ffff;
+  border-color: transparent;
+}
+.btn-primary:hover {
+  color: #99CCCD;
+  background-color: #036769;
+  border-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
