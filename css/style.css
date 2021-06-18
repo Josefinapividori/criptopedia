@@ -279,13 +279,22 @@ footer .modal .modal-body p {
 }
 
 .btn-primary {
-  background: #036769;
+  background: #99CCCD;
   color: #ffff;
   border-color: transparent;
 }
 .btn-primary:hover {
+  background-color: #99CCCD;
+  color: #028A8D;
+  border-color: transparent;
+}
+.light .btn-primary {
+  background: #036769;
+  color: #ffff;
+}
+.light .btn-primary:hover {
+  background-color: #028A8D;
   color: #99CCCD;
-  background-color: #036769;
   border-color: transparent;
 }
 

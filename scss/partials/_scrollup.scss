@@ -15,13 +15,25 @@
 }
 
 .btn-primary{
-    background: nth($list: $colores, $n: 5);
+    background: nth($list: $colores, $n: 2);
     color: nth($list: $colores, $n: 1 );
     border-color: transparent;
     
     &:hover{
-        color: nth($list:$colores , $n:2 );
-        background-color: nth($list:$colores , $n:5);
+        background-color: nth($list:$colores , $n:2);
+        color: nth($list:$colores , $n:3 );
         border-color: transparent;
     }
+
+    .light &{
+        background: nth($list: $colores, $n:5 );
+        color: nth($list: $colores, $n:1 );
+
+        &:hover{
+            background-color: nth($list:$colores , $n:3);
+            color: nth($list:$colores , $n:2 );
+            border-color: transparent;
+        }
+    }
+
 }
