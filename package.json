@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "emailjs-com": "^3.0.2",
+    "simplescrollup": "^1.1.0",
     "sweetalert2": "^11.0.17"
   },
   "description": ""
