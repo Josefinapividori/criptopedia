@@ -27,7 +27,7 @@ h1 {
   display: block;
   text-align: text-align center;
   text-decoration-style: wavy;
-  font-size: font-size 150%;
+  font-size: 150%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
@@ -43,7 +43,7 @@ h1 {
   display: block;
   text-align: left;
   text-decoration-style: wavy;
-  font-size: font-size 150%;
+  font-size: 150%;
   padding: 1% 1%;
   animation: bounce;
   animation-duration: 1s;
@@ -168,7 +168,7 @@ h1 {
   display: block;
   text-align: justify;
   text-decoration-style: wavy;
-  font-size: font-size 150%;
+  font-size: 150%;
   margin: 5%;
   padding: 2% 2% 2%;
 }
@@ -186,13 +186,19 @@ h1 {
   margin: 2%;
   padding: 5% 5% 5%;
   color: #ffff;
-  font-size: font-size 150%;
-  font-weight: 400;
+  font-size: 150%;
+  font-weight: 400%;
   text-align: justify;
   background: #036769;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 35px 35px 35px;
+}
+.segundo img {
+  width: 90%;
+  height: 10%;
+  margin: 2%;
+  padding: 5% 5% 5%;
 }
 .segundo a {
   text-decoration: none;
