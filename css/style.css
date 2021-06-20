@@ -224,14 +224,27 @@ h1 {
   padding: 5%;
   width: 100%;
 }
+.light .hablamos {
+  color: #028A8D;
+}
 .hablamos div {
   display: block;
   text-align: justify;
   color: #ffff;
 }
+.light .hablamos div {
+  color: #028A8D;
+}
 .hablamos .enviar {
   background: #036769;
   color: #ffff;
+}
+
+.glosario div.col {
+  padding: 5%;
+}
+.glosario div.col .negri {
+  font-weight: bold;
 }
 
 /*Listas*/

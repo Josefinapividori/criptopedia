@@ -13,14 +13,29 @@
     padding: 5%;
     width: 100%;
 
+    .light &{
+        color: nth($list: $colores, $n:3 );
+    }
+
     div{
         display: block;
         text-align: justify;
         color: nth($list:$colores , $n: 1);
+        .light &{
+            color: nth($list: $colores, $n:3 );
+        }
     }
 
     .enviar{
         background: nth($list: $colores, $n:5 ); 
         color: nth($list: $colores, $n:1 );
+    }
+}
+
+.glosario div.col{
+    padding: 5%;
+    
+    .negri{
+        font-weight: bold;
     }
 }
