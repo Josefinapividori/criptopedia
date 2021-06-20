@@ -304,4 +304,47 @@ footer .modal .modal-body p {
   border-color: transparent;
 }
 
+
+/*boton ver más*/
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: "ver más";
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: "Ver menos";
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #99CCCD;
+  font-size: 0.9em;
+  line-height: 2;
+  border: 1px solid #ffff;
+  border-radius: 0.25em;
+}
+
+.light .read-more-trigger {
+  background: #036769;
+  color: #ffff;
+}
+
 /*# sourceMappingURL=style.css.map */
