@@ -7,18 +7,16 @@
     text-align: nth($list: $texto , $n:3);
     justify-content:space-evenly;
     text-decoration-style: wavy;
-    padding: 0%;
     font-size: 100%;
+    color: nth($list:$colores , $n:1 );
+    
+    padding: 5%;
+    width: 100%;
 
-    li p a{
+    div{
         display: block;
-        text-align: center;
-    }
-
-    .hablamos {
-        margin-bottom: 15%;
-        padding: 5%;
-        width: 100%;
+        text-align: justify;
+        color: nth($list:$colores , $n: 1);
     }
 
     .enviar{

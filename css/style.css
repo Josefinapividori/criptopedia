@@ -219,17 +219,15 @@ h1 {
   text-align: text-align center;
   justify-content: space-evenly;
   text-decoration-style: wavy;
-  padding: 0%;
   font-size: 100%;
-}
-.hablamos li p a {
-  display: block;
-  text-align: center;
-}
-.hablamos .hablamos {
-  margin-bottom: 15%;
+  color: #ffff;
   padding: 5%;
   width: 100%;
+}
+.hablamos div {
+  display: block;
+  text-align: justify;
+  color: #ffff;
 }
 .hablamos .enviar {
   background: #036769;
